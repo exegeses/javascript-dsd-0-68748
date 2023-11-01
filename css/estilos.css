@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600&display=swap');
+
+body{
+    background-color: #261022;
+    color: hsl(311, 98%, 76%);
+    font-family: 'Figtree', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    width: 680px;
+    margin: 40px auto;
+    position: relative;
+}
+h1{
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+#texto{
+    position: absolute;
+    right: 0px;
+    background-color: hsl(311, 41%, 6%);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 24px;
+}
