@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contenedor{
+    background-color: #8dcfaa;
+    width: 680px;
+    display: flex;
+    justify-content: space-between;
+}
+    #contenedor ul{
+        width: 300px;
+        background-color: #eb8686;
+    }

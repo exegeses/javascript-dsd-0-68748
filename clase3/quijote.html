@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar contenido usando javascript</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <h1>Cambiar contenido usando javascript</h1>
+    <section id="contenedor">
+        <nav>
+            <a href="#" onclick="citas.innerText = espanol">Español</a>
+            <a href="#" onclick="citas.innerText = frances">Française</a>
+            <a href="#" onclick="citas.innerText = ingles">English</a>
+        </nav>
+        <p id="citas"></p>
+    </section>
+
+    <script src="js/quijote.js"></script>
+</body>
+</html>
