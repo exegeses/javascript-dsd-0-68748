@@ -46,3 +46,11 @@ h1{
     border-radius: 0px 12px 12px 12px;
     padding: 24px;
 }
+#caja{
+
+    background-color: #ccc;
+    width: 256px;
+    height: 256px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
