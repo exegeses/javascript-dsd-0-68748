@@ -41,6 +41,19 @@ function countdown()
     minutos = minutos % 60;
     segundos = segundos % 60;
 
+    if( dias < 10 ){
+        dias = '0' + dias;
+    }
+    if( horas < 10 ){
+        horas = '0' + horas;
+    }
+    if( minutos < 10 ){
+        minutos = '0' + minutos;
+    }    
+    if( segundos < 10 ){
+        segundos = '0' + segundos;
+    }
+
     //imprimos en los span
     txtDias.innerText =  dias;
     txtHoras.innerText =  horas;
@@ -51,6 +64,6 @@ function countdown()
 //invocamos la función
 countdown();
 // actualizamos el llamado a la función
-setInterval( countdown );
+setInterval( countdown, 1000 );
 
 

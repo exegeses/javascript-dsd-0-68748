@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parámetros de funciones</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <h1>Parámetros de funciones</h1>
+    <section id="contenedor">
+        <nav>
+            <a href="#" onclick="pintar('hsl(120, 70%, 65%)')">verde</a>
+            <a href="#" onclick="pintar('hsl(30, 70%, 65%)')">naranja</a>
+            <a href="#" onclick="pintar('yellow')"> amarillo</a>
+        </nav>
+    </section>
+    <article id="caja"></article>
+
+    <div id="selector">
+        <input type="color" id="picker" value="#999999">
+        <button onclick="colorear()">pintar</button>
+    </div>
+
+    <script src="js/parametros.js"></script>
+</body>
+</html>
