@@ -93,3 +93,7 @@ h1{
         height: 116px;
         background-color: rgb(130, 213, 140);
     }
+.timer{
+    display: inline-block;
+    margin-top: 12px;
+}
