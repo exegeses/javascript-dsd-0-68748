@@ -127,3 +127,21 @@ h1{
     #desafio button:hover{
         background-color: #4b2444;
     }
+
+#contenedorMarcas{
+    background-color: hsl(311, 38%, 25%);
+    font-size: 40px;
+    border-radius: 0px 12px 12px 12px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    #contenedorMarcas img{
+        filter: invert();
+        cursor: pointer;
+        transition: 500ms;
+    } 
+    #contenedorMarcas img:hover{
+        transform: scale(1.2);
+    }
